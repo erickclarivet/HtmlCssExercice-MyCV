@@ -153,10 +153,6 @@ label {
 /* In order to show in all type of screens */
 @media (max-width: 768px)
 {
-    body {
-        background-color: red;
-    }
-
     .size40 {
         font-size: 20px;
     }
