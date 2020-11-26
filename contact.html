@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <!-- Adding for referencement -->
+        <meta name="description" content="page de contact de Erick CLARIVET" />
+        <title>Experience Pro</title>
+        <link rel="stylesheet" type="text/css" href="css\main.css" />
+        <link rel="stylesheet" type="text/css" href="css\menu.css" />
+    </head>
+    <body>
+        <!-- Header -->
+        <div class="header">
+            <div class="photoPerso size40">
+                <img src="imgs\loutre-de-mer.jpg" alt="Loutre de mer" />
+            </div>
+            <div class="posteRecherche size40 colorBlueDark">
+                Developpeur C#
+            </div>
+            <div class="infoPerso size40 colorBlueDark">
+                Erick CLARIVET<br />
+                25 rue, Emile Lecrivain <br />
+                31 400 Toulouse<br />
+            </div>
+        </div>
+        <!-- Nav -->
+        <nav class="colorPurple">
+            <ul>
+                <li class="menuInfo">
+                    <a href="cv.html">Mes informations</a>
+                </li>
+                <li class="menuExp">
+                    <a href="experiencePro.html">Expériences pro</a>
+                </li>
+                <li class="menuContact">
+                    <a href="contact.html">Formulaire de contact</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- Core WebSite -->
+        <div class="core size20">
+            <h2 class="colorBlueDark size40">Mes coordonnées</h2>
+            <div class="dateExperience">
+                Téléphone : 00.00.00.00.00 <br />
+                Mail : xxxxx@gmail.com
+            </div>
+            <h2 class="colorBlueDark size40">Me contacter</h2>
+            <div>
+                <div class="container">
+                    <form action="/action_page.php">
+                        <fieldset>
+                            <legend>Informations à renseigner</legend>
+                            <div>
+                                <label for="name">Nom: </label>
+                                <input type="text" id="name" name="name" placeholder="Votre nom/prénom.." />
+                            </div>
+    
+                            <div>
+                                <label for="email">Email: </label>
+                                <input type="email" id="email" name="email" placeholder="Votre email.." />
+                            </div>
+    
+                            <div>
+                                <label for="object">Objet: </label>
+                                <select id="selection">
+                                    <option>Question</option>
+                                    <option>Autre</option>
+                                </select>
+                            </div>
+
+                            <div>
+                                <label for="message">Message: </label>
+                                <textarea id="message" name="message" placeholder="Description de votre demande.." cols="30" rows="5"></textarea>
+                            </div>
+
+                            <div>
+                                <input class="buttonContact" type="submit" value="Submit">
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+        <!-- Footer -->
+        <div class="footer colorWhite textCenter colorPurple">
+            Tous droits réservés
+        </div>
+    </body>
+</html>

@@ -1,0 +1,39 @@
+nav {
+    background-color: rgb(47, 47, 135);
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    list-style-type: none; /* supprime les puces */
+    width: 33.3%;
+    text-align: center;
+    border: 1px solid black;
+}
+
+nav a {
+    display: block; /* it's a inline tag, so we put it in order to apply padding property */
+    color: white;
+    padding: 20px 30px;
+    text-transform: uppercase; /* put all the text in uppercase */
+    text-decoration: none; /* remove the underline text */
+}
+
+.menuInfo:hover {
+    background-color: rgba(144, 1, 144, 0.326) ;
+    border-top: 5px solid rgb(53, 1, 53);
+}
+
+.menuExp:hover {
+    background-color: rgba(255, 255, 45, 0.34);
+    border-top: 5px solid rgb(126, 126, 2);
+}
+
+.menuContact:hover {
+    background-color: rgba(255, 116, 65, 0.437);
+    border-top: 5px solid rgb(156, 42, 0);
+}

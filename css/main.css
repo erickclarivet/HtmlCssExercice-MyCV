@@ -1,0 +1,186 @@
+/****
+** General
+****/
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* get verdan police, if browser doesn't have, it will take Geneva and the other one and so on */
+    border: 1px solid rgb(47, 47, 135);
+}
+
+.size40 {
+    font-size: 40px;
+}
+
+.size20 {
+    font-size: 20px;
+}
+
+.colorBlueDark {
+    color: rgb(0, 0, 43);
+}
+
+.colorPurple {
+    background-color: rgb(47, 47, 135);
+}
+
+.colorBluelight {
+    color:rgb(1, 93, 150);
+}
+
+.colorOrange {
+    color:orange;
+}
+
+.colorWhite {
+    color: white
+}
+
+.textCenter {
+    text-align: center;
+}
+
+h2 {
+    padding: 0px;
+    margin: 30px 0px;
+    border-bottom : 1px solid rgb(0, 0, 43);
+}
+
+/****
+** End General
+****/
+
+/*****
+** Header
+*****/
+.header {
+    display : flex; /* Activate flex */
+    align-items: center; /* center text verticaly in the element */
+    text-align: center; /* center text horizontaly in the element */
+}
+
+.header .photoPerso img {
+    margin-top: 10px;
+    height: 150px;
+    border: 3px solid black;
+}
+
+.photoPerso {
+    width: 33%;
+}
+
+.posteRecherche{
+    flex: auto;
+}
+
+.infoPerso {
+    width: 33%;
+}
+/*****
+** End Header
+*****/
+
+/*****
+** Footer
+*****/
+.footer {
+    padding: 10px;
+    margin-top: 10px;
+}
+/*****
+** End Footer
+*****/
+
+/*****
+** Core
+*****/
+.core {
+    padding: 0% 2%;
+}
+
+.domaineCompetence table { /* we define this in order to seperate all the row by 33% width, couldn't do it otherwise */
+    width: 100%;
+}
+
+.domaineCompetence table td, .domaineCompetence table th {
+    padding: 10px 20px;
+    border : 1px solid rgb(0, 0, 43);
+    width: 33%;
+}
+
+.experience {
+    display: flex;
+    width: 100%;
+}
+
+.detailEntreprise {
+    width: 33%;
+}
+
+.detailExperience {
+    width: 79%;
+}
+
+.detailEntreprise h2 
+{
+    border-bottom: none;
+}
+
+fieldset {
+    width: 22%;
+}
+
+label {
+    display: block; /* in order to change the size of a inline tag */
+    /* float: left; */
+    width: 20%;
+    /* text-align: right; */
+    padding: 20px 0px 5px 0px;
+}
+
+.buttonContact {
+    width: 200px;
+    margin: 10px 0px 0px 20px;
+}
+
+/*****
+** End Footer
+*****/
+
+
+/****
+** Media queries
+****/
+
+/* In order to show in all type of screens */
+@media (max-width: 768px)
+{
+    body {
+        background-color: red;
+    }
+
+    .size40 {
+        font-size: 20px;
+    }
+
+    .size20 {
+        font-size: 10px;
+    }
+
+    .header .photoPerso img {
+        margin-top: 10px;
+        height: 80px;
+        border: 3px solid black;
+    }
+}
+
+.detailEntreprise {
+    width: 30%;
+}
+
+.detailExperience {
+    width: 75%;
+}
+
+
+/****
+** End Media queries
+****/
